@@ -20,3 +20,6 @@ LOGON, CORE_GET_USER_DETAILS, CORE_DATA_TRACKING_SEARCH, SETUP_SPACE_SETTINGS_SE
 |continuity-reset-last-backup-date|Reset last backup reference date on your space settings|setup_space_settings|
 |continuity-get-tracking-data|Uses settings.continuity.objects.include/exclude|core_data_tracking|
 |continuity-backup-object-data|This is the code you use to get data and save to your local storage. You can hard code the object schema to get the required object data, or use core_object_search to get object schema to make it dynamic.|*As required*|
+
+### Event Settings
+- "template" - saves as a template file that can be used within https://org.entityos.app.
