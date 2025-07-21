@@ -1,0 +1,43 @@
+{
+	"entityos":
+	{
+		"hostname": "api.entityos.cloud",
+		"logon": "x", 
+		"password": "x", 
+		"email": "x",
+		"testing": 
+		{
+			"status": "true",
+			"showData": "true",
+			"break": "-"
+		},
+		"convert": "true"
+	},
+	"continuity":
+	{
+		"alert":
+		{
+			"default":
+			{
+				"email": "x"
+			}
+		},
+		"objects":
+		{
+			"include": "12,32"
+		},
+		"schema":
+		{
+			"contact_person":
+			{
+				"fields":
+				[
+					{"name": "firstname"},
+					{"name": "surname"},
+					{"name": "email"}
+				]
+			}
+		},
+		"local": {}
+	}
+}	

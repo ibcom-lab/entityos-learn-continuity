@@ -1,0 +1,17 @@
+{
+	"site": "default",
+	"controller": "continuity-util-space-export-data",
+	"exports":
+	[
+		{
+			"object": "contact_business",
+			"fields": ["tradename"]
+		},
+		{
+			"object": "contact_person",
+			"fields": ["firstname", "surname"]
+		}
+	],
+	"removeID": "true",
+	"template": "true"
+}	
